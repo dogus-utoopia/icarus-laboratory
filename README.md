@@ -1,6 +1,6 @@
 # ICARUS — Laboratory
 
-This repository contains laboratory-level implementations derived from the
+This repository contains laboratory-level prototypes derived from the
 ICARUS closed-cycle homeostatic architecture.
 
 The code included here is experimental and intended exclusively for technical
