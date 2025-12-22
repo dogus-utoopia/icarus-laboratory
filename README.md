@@ -52,17 +52,19 @@ records. See the corresponding DOI pages for license details
 For clarification regarding licensing of prior ICARUS materials, see
 LICENSE_CLARIFICATION.txt in this repository.
 
-## Colaboración
+## Collaboration
 
-El proyecto ICARUS está abierto a colaboración técnica para:
+The ICARUS project is open to technical collaboration focused on:
+- implementation
+- simulation
+- stability and attractor analysis
+- evaluation of laboratory hypotheses
 
-- implementación
-- simulación
-- análisis de estabilidad y atractores
-- evaluación de hipótesis de laboratorio
+The architecture and hypotheses are closed and published with DOI on Zenodo.
+Collaboration is limited to implementation and technical analysis.
 
-La arquitectura y las hipótesis están cerradas y publicadas con DOI en Zenodo.
-La colaboración se limita a implementación y análisis técnico.
+Spanish-speaking technical profiles preferred.
 
-Se busca perfil técnico hispanohablante.
-Contacto inicial vía GitHub (Issues or Discussions).
+Initial contact:
+- GitHub (Issues or Discussions)
+- Email: dogus0@hotmail.com
