@@ -47,3 +47,7 @@ frozen ICARUS specification or prior art.
 
 This repository follows the same licensing terms as the associated Zenodo
 records. See the corresponding DOI pages for license details
+
+## Licensing Note
+For clarification regarding licensing of prior ICARUS materials, see
+LICENSE_CLARIFICATION.txt in this repository.
