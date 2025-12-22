@@ -65,4 +65,4 @@ La arquitectura y las hipótesis están cerradas y publicadas con DOI en Zenodo.
 La colaboración se limita a implementación y análisis técnico.
 
 Se busca perfil técnico hispanohablante.
-Contacto inicial vía GitHub.
+Contacto inicial vía GitHub (Issues or Discussions).
