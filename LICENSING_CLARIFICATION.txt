@@ -1,0 +1,22 @@
+LICENSING CLARIFICATION NOTICE
+
+This notice clarifies the licensing terms applicable to the ICARUS prior art
+and associated prototype materials.
+
+The archive file:
+icarus_prior_art_and_pytorch_prototypes_v1_0.zip
+
+contains internal README and LICENSE files that reflect an earlier
+draft licensing intention.
+
+The authoritative and legally binding license for this work is the license
+declared in the Zenodo DOI record:
+
+Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)
+
+As stated in the Zenodo metadata, this license supersedes any internal
+draft or inconsistent license text contained within archived materials.
+
+This notice is provided for transparency and record integrity.
+
+© 2025 Luis Javier Carrasco Pérez
