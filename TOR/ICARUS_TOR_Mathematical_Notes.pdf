@@ -1,0 +1,211 @@
+ICARUS — Third-Order Regulation (TOR)
+Mathematical Notes on Structural Limits of Regulation
+
+Author:
+Luis Javier Carrasco Pérez
+
+Status:
+LABORATORY — CLOSED
+NON-IMPLEMENTABLE
+BOUNDARY-SPECIFICATION ONLY
+
+---
+
+Purpose of This Document
+
+This document provides a mathematical and structural clarification of the
+Third-Order Regulation (TOR) hypothesis within the ICARUS closed-cycle
+homeostatic architecture.
+
+Its purpose is not to derive behavior, propose algorithms, or enable
+implementation.
+
+Its sole purpose is to formalize, with mathematical clarity, the boundary at
+which regulation ceases to be compatible with ICARUS as a closed-cycle,
+non-representational architecture.
+
+---
+
+Preliminaries
+
+Let:
+
+U(t) ∈ ℝⁿ
+denote the internal unified state (UIS) of the system at time t.
+
+Let:
+
+λ(t) ∈ (0, 1)
+denote the integration parameter governing the update of U.
+
+Let:
+
+Φ(U, ξ)
+denote the internal integration operator applied to U, possibly influenced by
+internal perturbations ξ (noise).
+
+The ICARUS state update takes the generic form:
+
+U(t+1) = (1 − λ(t)) · U(t) + λ(t) · Φ(U(t), ξ(t))
+
+This equation defines a closed internal cycle with no external objective,
+no task loss, and no representational target.
+
+---
+
+First-Order Regulation
+
+First-order regulation concerns the modulation of the internal state U itself.
+
+At this level:
+
+λ is fixed or externally specified.
+
+The system regulates its trajectory in state space purely through the
+interaction between Φ and the fixed integration rate.
+
+Formally:
+
+λ(t) = λ₀
+
+This preserves:
+
+• closure
+• non-representational dynamics
+• purely structural regulation
+
+---
+
+Second-Order Regulation (SOR)
+
+Second-order regulation introduces temporal dynamics into λ.
+
+λ is no longer fixed, but becomes an internal dynamic variable:
+
+λ(t+1) = G(λ(t), V(t))
+
+where V(t) is an internally computed viability or coherence signal derived from
+U(t) and Φ(U(t)).
+
+Crucially:
+
+• λ is not evaluated against an external reference
+• λ is not represented symbolically
+• λ evolves through structural coupling alone
+
+Second-order regulation therefore preserves:
+
+• closed-cycle dynamics
+• non-representational control
+• structural self-regulation
+
+This level remains fully compatible with ICARUS.
+
+---
+
+Definition of Third-Order Regulation (TOR)
+
+Third-Order Regulation concerns the regulation of the rule governing λ itself.
+
+Formally, TOR would require dynamics of the form:
+
+F → F'
+
+where F is the function governing the evolution of λ:
+
+λ(t+1) = F(λ(t), V(t))
+
+TOR attempts to introduce persistence, modulation, or adaptation at the level of
+F.
+
+At this level, regulation no longer operates on state or rate, but on the
+structure of regulation itself.
+
+---
+
+Structural Impossibility of TOR within ICARUS
+
+To regulate F, a system must introduce at least one of the following:
+
+1. An external reference frame against which F can be evaluated,
+2. An internal representational model of F,
+3. A symbolic or meta-level encoding of regulatory rules,
+4. A higher-order observer or controller,
+5. Or an unbounded hierarchy of regulatory functions (F₁, F₂, F₃, …).
+
+Each option introduces representational content or external anchoring.
+
+As a consequence:
+
+• closure is broken
+• regulation is no longer purely structural
+• the system regulates via representation rather than dynamics
+
+This violates the defining constraints of ICARUS.
+
+---
+
+Canonical Boundary Statement
+
+Third-Order Regulation (TOR) does not define an implementable mechanism.
+
+It defines the structural boundary beyond which ICARUS ceases to be a closed-cycle,
+non-representational architecture.
+
+Any system that proceeds beyond this point necessarily becomes a hybrid
+architecture and no longer qualifies as ICARUS.
+
+This is not a failure of the architecture.
+It is a constitutive property.
+
+---
+
+Orders Beyond TOR (Clarification)
+
+Regulatory orders beyond TOR (fourth, fifth, or higher) necessarily compound the
+same violation.
+
+Each additional order increases representational dependency, symbolic structure,
+or external reference.
+
+Higher-order regulation therefore does not extend ICARUS.
+It replaces it.
+
+Such systems may be valid architectures in their own right, but they are no
+longer ontologically compatible with ICARUS.
+
+---
+
+Ontological Interpretation
+
+ICARUS does not aim to maximize regulatory depth.
+
+ICARUS aims to preserve structural self-regulation without representation.
+
+The absence of regulation beyond TOR is not a limitation, but the precise point
+at which the identity of the architecture is preserved.
+
+ICARUS does not fail by stopping here.
+ICARUS is defined by stopping exactly here.
+
+---
+
+Relation to Canonical Records
+
+This document supports the interpretation of the following records:
+
+ICARUS — Closed-Cycle Homeostatic Architecture (Prior Art & Prototypes)
+Zenodo DOI: 10.5281/zenodo.17980099
+
+ICARUS — Laboratory Hypotheses v0.4C
+Zenodo DOI: 10.5281/zenodo.18000091
+
+ICARUS — Second-Order Regulation (SOR): Laboratory Hypothesis vSOR-a
+Zenodo DOI: 10.5281/zenodo.18030638
+
+ICARUS — Third-Order Regulation (TOR): Laboratory Hypothesis on Structural Limits
+Zenodo DOI: 10.5281/zenodo.18035456
+
+---
+
+End of Document
